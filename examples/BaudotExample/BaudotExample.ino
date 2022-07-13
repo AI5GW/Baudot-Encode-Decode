@@ -70,7 +70,7 @@ void loop() {
   Serial.print("Baudot Mode: ");
   Serial.println(Baudot.ModeChanged());
 
-  // Decode 0x47 ('A' in Letter mode, '-' in figures mode). Should return 'A'
+  // Decode B00011 ('A' in Letter mode, '-' in figures mode). Should return 'A'
   Serial.println(Baudot.Decode(B00011));
 
   // Decode figures mode control symbol (B11011)
@@ -81,7 +81,7 @@ void loop() {
   Serial.print("Baudot Mode: ");
   Serial.println(Baudot.ModeChanged());
 
-  // Decode 0x47 ('A' in Letter mode, '-' in figures mode). Will now return '-'
+  // Decode B00011 ('A' in Letter mode, '-' in figures mode). Will now return '-'
   Serial.println(Baudot.Decode(B00011));
 
   delay(1000);
