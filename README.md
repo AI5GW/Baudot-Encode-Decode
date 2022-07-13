@@ -24,11 +24,11 @@ First of all, the **Baudot.h** header file need to be included and the Baudot cl
     
 After instantiating the Baudot class, important Radioteletype (RTTY) control symbols are available through the following constant names:
     
-  #define BAUDOT_LETTERS                  B11111  // Letters mode control symbol
-  #define BAUDOT_FIGURES                  B11011  // Figures mode control symbol
-  #define BAUDOT_CR     	                B01000  // CR
-  #define BAUDOT_LF                       B00010  // LF
-  #define BAUDOT_SP                       B00100  // SP
+    #define BAUDOT_LETTERS                  B11111  // Letters mode control symbol
+    #define BAUDOT_FIGURES                  B11011  // Figures mode control symbol
+    #define BAUDOT_CR     	                B01000  // CR
+    #define BAUDOT_LF                       B00010  // LF
+    #define BAUDOT_SP                       B00100  // SP
     
  After instantiating the Baudot class, there are 3 functions available:
  
