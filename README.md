@@ -35,10 +35,10 @@ After instantiating the Baudot class, important Radioteletype (RTTY) control sym
  - bool getMode();
  - setMode(bool);
  - bool ModeChanged(void);
- - bool isLetter(char)
- - int Encode(char)
- - char Decode(int, bool mode)
- - char Decode(int)
+ - bool isLetter(char);
+ - int Encode(char);
+ - char Decode(int, bool mode);
+ - char Decode(int);
  
 Baudot.bool getMode() returns boolean '1' for letter mode, boolean '0' for figures mode. 
  
@@ -79,7 +79,6 @@ Links & Contact
 ---------------------
 If you have any questions or comments, feel free to contact me through the email address provided in the project files. Additionally, feel free to check out my blogs and YouTube channel for additional information, examples and feedback:
 
-
 [Blog (EN): https://baltic-lab.com](https://baltic-lab.com)
 
 [Blog (DE): https://baltic-labor.de/](https://baltic-labor.de/)
@@ -96,6 +95,7 @@ Changelog
 * v1.0.0
 
     * Initial release
+
     
 License
 -------
