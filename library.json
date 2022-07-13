@@ -1,0 +1,22 @@
+{
+    "name": "BaudotCode",
+    "keywords": "Baudot, RTTY, Radioteletype",
+    "description": "Easily encode and decode ITA-2 5 bit Baudot code for for RTTY on Arduino",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/AI5GW/Baudot-Encode-Decode"
+    },
+    "authors":
+    [
+      {
+        "name": "Sebastian Westerhold",
+        "email": "sebastian@baltic-lab.com",
+        "url": "https://baltic-lab.com",
+        "maintainer": true
+      }
+    ],
+    "version": "1.0.1",
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
