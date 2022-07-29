@@ -91,11 +91,11 @@ Arduino Lint Status
 
 Changelog
 ---------
-* v1.0.1
+* v1.0.2
 
     * Added CITATION.cff
     
-* v1.0.0
+* v1.0.1
 
     * Initial release
 
