@@ -87,7 +87,7 @@ If you have any questions or comments, feel free to contact me through the email
 
 Arduino Lint Status
 -------------------
-[![arduino-lint Actions Status](https://github.com/AI5GW/Baudot-Encode-Decode/workflows/arduino-lint/badge.svg)](https://github.com/AI5GW/Baudot-Encode-Decode/actions)
+[![arduino-lint Actions Status](https://github.com/AI5GW/Baudot-Encode-Decode/workflows/arduino-lint/badge.svg)](https://github.com/AI5GW/Baudot-Encode-Decode/actions) [![DOI](https://zenodo.org/badge/513563000.svg)](https://zenodo.org/badge/latestdoi/513563000)
 
 Changelog
 ---------
